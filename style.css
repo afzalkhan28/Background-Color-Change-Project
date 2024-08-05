@@ -1,0 +1,35 @@
+body {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+    margin: 0;
+    background-color: #f0e8e8;
+    font-family: Arial, sans-serif;
+
+}
+h1 {
+    color: #362a46;
+    margin-bottom: 2rem;
+}
+
+#colorbox {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: #4e28ae;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 6px;
+}
+
+#colorbox span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
